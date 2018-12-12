@@ -15,7 +15,6 @@ m = [:]; c = 0;
 g.V.as('x').out.groupCount(m).loop('x'){c++ < 1000}
 m.sort{-it.value}
 ```
-* "GremlinDocs":http://gremlindocs.com/ (*easy reference manual*)
 * "SQL2Gremlin":http://sql2gremlin.com/ (*easy reference manual*)
 
 ==<hr/>==
@@ -67,10 +66,8 @@ m.sort{-it.value}
   ** [[Acknowledgments]]
   ** [[Release Notes]]
 
-"The Graph Traversal Programming Pattern":http://windycitydb.org/videos2010/#5 (*Presentation of Basic Graph Traversal Concepts*)
 "On the Nature of Pipes":http://markorodriguez.com/2011/08/03/on-the-nature-of-pipes/ (*Understand the Gremlin Engine*)
 "Gremlin Tutorial 1":http://www.youtube.com/watch?v=5wpTtEBK4-E (*Screencast of Gremlin 0.7*)
-"Gremlin Tutorial 2":http://windycitydb.org/videos2011/#1 (*Presentation of Gremlin 1.1*)
 
 ==<hr/>==
 
